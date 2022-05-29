@@ -78,8 +78,6 @@
 
 
 
-
-
 /* LINK LOGO */
 .link-logo {
     text-decoration: none;
@@ -178,7 +176,7 @@
 
 /* TAMAÑO IMAGENES SECCION MEDIA */
 .seccion-media div img {
-    width: 20vw;
+    width: 80%;
     height: 30vh;
     
 }
