@@ -278,3 +278,17 @@
 .nosotros-img- {
     width: 60%;
 } 
+
+
+/***** ESTILOS ARCHIVO PRODUCTOS *****/
+
+/* FUENTE H1 */
+.prodcutos-titulo {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* COLOR MAIN */
+
+.productos {
+    background-color: #0077b6;
+}
