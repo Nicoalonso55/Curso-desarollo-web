@@ -50,6 +50,7 @@
     position: relative;
 }
 
+/* AGREGO LINEA DE COLOR AL LOS ELEMENTOS LI */
 .encabezado-lista li::before {
     content: '';
     height: 3px;
@@ -62,6 +63,7 @@
     transition: 0.4s ease-out;
 }
 
+/* ACTIVO LINEA AL PASAR EL MOUSE POR LOS ELEMENTOS */
 .encabezado-lista li:hover::before {
     width: 80%;
 }
