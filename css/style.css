@@ -157,19 +157,15 @@
 /***** ESTILOS SECCION MEDIA ******/
 
 /* CONTENEDOR SECCION MEDIA */
-.seccion-media{
+.media{
     padding: 20px;
-    background-color: #0096c7;
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, auto);
-    grid-template-areas:    
-                            "servidor redes asesoramiento"
-                            ;
-
+    background-color: #0077b6;
 }
 
+
+.card {
+    background-color: #0077b6;
+}
 /* ESTILOS A LOS P SECCION MEDIA */
 .seccion-media div p{
     text-align: center;
