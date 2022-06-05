@@ -316,3 +316,20 @@
 .carrusel {
     padding: 15px;
 }
+
+@media (max-width:991px) {
+
+    .principal-seccion {
+        display: block;
+    }
+
+    .principal-video {
+        display: none;
+    }
+
+    .img-principal {
+        width: 100vw;
+        padding: 0;
+    }
+    
+}
