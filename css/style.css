@@ -26,22 +26,6 @@
     top: 0;
 }
 
-/* NAV */
-/* .encabezado {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-} */
-
-/* LISTA */
-/* .encabezado-lista {
-    display: flex;
-    flex-wrap: wrap;
-
-} */
-
 /* ELEMENTOS DE LA LISTA */
 .encabezado-lista li {
     font-size: 20px;
@@ -53,7 +37,8 @@
 }
 
 /* AGREGO LINEA DE COLOR AL LOS ELEMENTOS LI */
-.encabezado-lista li::before {
+/*
+.encabezado-lista li a::before {
     content: '';
     height: 3px;
     width: 0;
@@ -63,11 +48,21 @@
     margin-left: 15px;
     bottom: -12px;
     transition: 0.4s ease-out;
+}*/
+
+.encabezado-lista li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #00ffb3 ;
+    margin: auto;
+    display: block;
 }
 
 /* ACTIVO LINEA AL PASAR EL MOUSE POR LOS ELEMENTOS */
-.encabezado-lista li:hover::before {
-    width: 80%;
+.encabezado-lista li a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
 }
 
 /* ELEMENTOS LINKS DE LA LISTA */
@@ -317,6 +312,9 @@
     padding: 15px;
 }
 
+
+/* TRABAJO CON @MEDIA */
+
 @media (max-width:991px) {
 
     .principal-seccion {
@@ -330,6 +328,10 @@
     .img-principal {
         width: 100vw;
         padding: 0;
+    }
+
+    .encabezado-lista li:hover::before {
+        width: 0%;
     }
     
 }
