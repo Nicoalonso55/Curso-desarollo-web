@@ -98,14 +98,60 @@
 
     </header>
 
-    <main>
+    <main class="contacto">
 
-        <section>
+      <div>
+        <h1 class="contacto-titulo">Contacto</h1>
+      </div>
+        <section class="seccion-contacto d-flex justify-content-center">
 
-            <h2>Contacto</h2>
+          
+            
 
+            
+              <div class="card w-75 d-flex justify-content-center">
+    
+                <div class="card-body">
+    
+                  <h5 class="card-title">Completá el formulario y responderemos a la brevedad</h5>
+                  
+                  <div class="row g-3 nombreyapellido">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                    </div>
+                  </div>
+    
+                  <div class="mb-3">
+                    
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+                  </div>
+                  <select class="form-select motivos" aria-label="Default select example">
+                    <option selected>Motivo de la consulta</option>
+                    <option value="1">Servicio post-venta</option>
+                    <option value="2">Presupuestos</option>
+                    <option value="3">Otras consultas</option>
+                  </select>
+                  <div class="mb-3 area-mensaje">
+                    
+                    <textarea class="form-control " id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+                  </div>
+    
+                  </div>
+                
+                  <button class="btn btn-primary w-25" type="submit">Enviar</button>
+
+                </div>
+              
+              </div>
+    
+
+        
+
+        
         </section>
-
     </main>
 
     <footer class="final">

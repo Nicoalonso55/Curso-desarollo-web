@@ -307,13 +307,44 @@
     padding: 15px;
 }
 
+/* FUENTE H1 */
+.contacto-titulo {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
 /* CARRUSEL */
 .carrusel {
     padding: 15px;
 }
 
 
-/* TRABAJO CON @MEDIA */
+/***** ESTILOS ARCHIVO FORMULARIO *****/
+
+/* COLOR MAIN */
+.contacto {
+    background-color: #0077b6;
+}
+
+.nombreyapellido {
+    padding-bottom: 15px;
+}
+
+.area-mensaje {
+    padding-top: 15px;
+}
+
+
+
+
+
+
+/****** TRABAJO CON @MEDIA ******/
 
 @media (max-width:991px) {
 
