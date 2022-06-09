@@ -1,0 +1,375 @@
+/* AGREGO FUENTE TOMADA DE GOOGLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Ubuntu:wght@300&display=swap');
+
+
+/* FORMATEO INICIAL DE LA PÁGINA */
+* {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/***** ESTILOS INDEX *****/
+
+
+/* ESTILOS ENCABEZADO */
+/* HEADER */
+.encabezado-contenedor {
+    background-color: #023e8a;
+    /* display: flex;
+    justify-content: center; */
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+/* ELEMENTOS DE LA LISTA */
+.encabezado-lista li {
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    /* padding: 0px 25px; */
+    color: aliceblue;
+    position: relative;
+}
+
+/* AGREGO LINEA DE COLOR AL LOS ELEMENTOS LI */
+/*
+.encabezado-lista li a::before {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #00ffb3;
+    position: absolute;
+    left: 0;
+    margin-left: 15px;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}*/
+
+.encabezado-lista li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #00ffb3 ;
+    margin: auto;
+    display: block;
+}
+
+/* ACTIVO LINEA AL PASAR EL MOUSE POR LOS ELEMENTOS */
+.encabezado-lista li a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+/* ELEMENTOS LINKS DE LA LISTA */
+.encabezado .encabezado-lista li a {
+    text-decoration: none;    
+    color: white;
+   /* transition: all 0.7s;*/
+    
+}
+
+.nav-link   {
+    color: aliceblue ;
+   
+}
+
+
+
+/* LINK LOGO */
+.link-logo {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+/* LOGO */
+.img-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+
+/* TEXTO QUE ACOMPAÑA AL LOGO */
+.nombre-negocio {
+    padding: 20px 20px;
+    color: aliceblue;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+
+
+/***** ESTILOS SECCION PRINCIPAL *****/
+
+/* CONTENEDOR PRINCIPAL MAIN */
+.principal{
+    background-color: #0077b6;
+}
+
+/* SECCION PRINCIPAL */
+.principal-seccion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:    
+                            "video-1        video-1"
+                            "principal-1    principal-img"
+                            "principal-1    principal-img";
+}
+
+/* TITULO PRINCIPAL */
+.titulo-principal {
+    color: aliceblue;    
+}
+
+/* PARRAFO SECCION PRINCIPAL */
+.principal-parrafo{
+    color: aliceblue;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/* VIDEO SECCION PRINCIPAL */
+
+.principal-video {
+    width: 100%;
+    grid-area: video-1;
+}
+
+/* CONTENEDOR DE TITULO Y PARRAFO SECCION PRINCIPAL */
+.principal-div {
+    padding: 20px;
+    grid-area: principal-1;
+
+}
+
+/* IMAGEN PRINCIPAL */
+.img-principal {
+    width: 50vw;
+    padding-left: 20%;
+    grid-area: principal-img;
+}
+
+
+/***** ESTILOS SECCION MEDIA ******/
+
+/* CONTENEDOR SECCION MEDIA */
+.media{
+    padding: 20px;
+    background-color: #0077b6;
+}
+
+
+.card {
+    background-color: #0077b6;
+}
+/* ESTILOS A LOS P SECCION MEDIA */
+.seccion-media div p{
+    text-align: center;
+    color: aliceblue;
+}
+
+/* TAMAÑO IMAGENES SECCION MEDIA */
+.seccion-media div img {
+    width: 80%;
+    height: 30vh;
+    
+}
+
+/* CONTENEDORES IMAGENES */
+.media-uno {
+    grid-area: servidor;
+}
+
+.media-dos {
+    grid-area: redes;
+}
+
+.media-tres {
+    grid-area: asesoramiento;
+}
+
+/***** ESTILOS PIE DE PÁGINA *****/
+
+
+/* FOOTER */
+.final {
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #023e8a;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* PARRAFO NUESTRAS REDES */
+.final-div-p {
+    color: aliceblue;
+    width: 20%;
+}
+
+
+/* CONTENEDOR DE LINKS */
+.final-link-redes {
+    padding-bottom: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* ELEMENTOS A REDES */
+
+.final-link-redes a {
+    transition: 0.5s;
+}
+
+.final-link-redes a:hover {
+    transform: scale(2);
+}
+
+/* ICONOS DE REDES */
+.img-face, .img-insta, .img-youtube {
+    width: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/***** ESTILOS ARCHIVO NOSOTROS *****/
+
+/* SECCION NOSOTROS */
+.seccion-nosotros {
+    padding: 20px;
+    color: aliceblue;
+    background-color: #0077b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nosotros-titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.nosotros-parrafo {
+    text-align: center;
+}
+
+.nosotros-img {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.nosotros-img- {
+    width: 60%;
+} 
+
+
+/***** ESTILOS ARCHIVO PRODUCTOS *****/
+
+/* FUENTE H1 */
+.prodcutos-titulo {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* COLOR MAIN */
+
+.productos {
+    background-color: #0077b6;
+}
+
+
+/* CONTENEDOR GRID CARDS*/
+.seccion-productos {
+    padding: 15px;
+}
+
+/* FUENTE H1 */
+.contacto-titulo {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* CARRUSEL */
+.carrusel {
+    padding: 15px;
+}
+
+
+/***** ESTILOS ARCHIVO FORMULARIO *****/
+
+/* COLOR MAIN */
+.contacto {
+    background-color: #0077b6;
+}
+
+.nombreyapellido {
+    padding-bottom: 15px;
+}
+
+.area-mensaje {
+    padding-top: 15px;
+}
+
+.card-form {
+    border: none;
+}
+
+.h5-form {
+    color: aliceblue;
+}
+
+
+
+
+
+/****** TRABAJO CON @MEDIA ******/
+
+@media (max-width:991px) {
+
+    .principal-seccion {
+        display: block;
+    }
+
+    .principal-video {
+        display: none;
+    }
+
+    .img-principal {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .encabezado-lista li:hover::before {
+        width: 0%;
+    }
+    
+}
