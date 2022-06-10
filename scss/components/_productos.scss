@@ -1,3 +1,4 @@
+@import '../base/colores';
 /***** ESTILOS ARCHIVO PRODUCTOS *****/
 
 /* FUENTE H1 */
@@ -5,7 +6,7 @@
     padding-top: 20px;
     padding-left: 15px;
     font-family: 'Ubuntu', sans-serif;
-    color: aliceblue;
+    color: $color_texto;
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 0;
@@ -14,7 +15,7 @@
 /* COLOR MAIN */
 
 .productos {
-    background-color: #0077b6;
+    background-color: $color_principal;
 }
 
 
@@ -28,7 +29,7 @@
     padding-top: 20px;
     padding-left: 15px;
     font-family: 'Ubuntu', sans-serif;
-    color: aliceblue;
+    color: $color_texto;
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 0;

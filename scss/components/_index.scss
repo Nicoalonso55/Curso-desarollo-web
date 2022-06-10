@@ -1,8 +1,10 @@
+@import '../base/colores';
+
 /***** ESTILOS SECCION PRINCIPAL *****/
 
 /* CONTENEDOR PRINCIPAL MAIN */
 .principal{
-    background-color: #0077b6;
+    background-color: $color_principal;
 }
 
 /* SECCION PRINCIPAL */
@@ -18,12 +20,12 @@
 
 /* TITULO PRINCIPAL */
 .titulo-principal {
-    color: aliceblue;    
+    color: $color_texto;    
 }
 
 /* PARRAFO SECCION PRINCIPAL */
 .principal-parrafo{
-    color: aliceblue;
+    color: $color_texto;
     padding-top: 20px;
     font-size: 20px;
 }
@@ -54,17 +56,17 @@
 /* CONTENEDOR SECCION MEDIA */
 .media{
     padding: 20px;
-    background-color: #0077b6;
+    background-color: $color_principal;
 }
 
 
 .card {
-    background-color: #0077b6;
+    background-color: $color_principal;
 }
 /* ESTILOS A LOS P SECCION MEDIA */
 .seccion-media div p{
     text-align: center;
-    color: aliceblue;
+    color: $color_texto;
 }
 
 /* TAMAÑO IMAGENES SECCION MEDIA */

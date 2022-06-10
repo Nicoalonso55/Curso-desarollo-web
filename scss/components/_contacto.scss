@@ -1,8 +1,10 @@
+@import '../base/colores';
+
 /***** ESTILOS ARCHIVO CONTACTO *****/
 
 /* COLOR MAIN */
 .contacto {
-    background-color: #0077b6;
+    background-color: $color_principal;
 }
 
 .nombreyapellido {
@@ -18,5 +20,5 @@
 }
 
 .h5-form {
-    color: aliceblue;
+    color: $color_texto;
 }

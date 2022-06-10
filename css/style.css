@@ -1,14 +1,6 @@
 @charset "UTF-8";
 /* AGREGO FUENTE TOMADA DE GOOGLE */
 @import url("https://fonts.googleapis.com/css2?family=Play&family=Ubuntu:wght@300&display=swap");
-/* FORMATEO INICIAL DE LA PÁGINA */
-* {
-  font-family: "Ubuntu", sans-serif;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 /* ESTILOS ENCABEZADO */
 /* HEADER */
 .encabezado-contenedor {
@@ -46,7 +38,7 @@
 /* ELEMENTOS LINKS DE LA LISTA */
 .encabezado .encabezado-lista li a {
   text-decoration: none;
-  color: white;
+  color: aliceblue;
 }
 
 .nav-link {

@@ -1,16 +1,8 @@
-/* FORMATEO INICIAL DE LA PÁGINA */
-* {
-    font-family: 'Ubuntu', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
+@import '../base/colores';
 /* ESTILOS ENCABEZADO */
 /* HEADER */
 .encabezado-contenedor {
-    background-color: #023e8a;
+    background-color: $color_nav_foot;
     position: sticky;
     z-index: 1;
     top: 0;
@@ -22,7 +14,7 @@
 		font-size: 20px;
 		list-style-type: none;
 		display: flex;
-		color: aliceblue;
+		color: $color_texto;
 		position: relative;
 	}
 }
@@ -63,14 +55,14 @@
 		li {
 			a {
 				text-decoration: none;
-				color: white;
+				color: $color_texto;
 			}
 		}
 	}
 }
 
 .nav-link   {
-    color: aliceblue ;   
+    color: $color_texto;   
 }
 
 /* LINK LOGO */
@@ -92,7 +84,7 @@
 /* TEXTO QUE ACOMPAÑA AL LOGO */
 .nombre-negocio {
     padding: 20px 20px;
-    color: aliceblue;
+    color: $color_texto;
     font-size: 1.0em;
     font-weight: bold;
 }

@@ -1,3 +1,5 @@
+@import '../base/colores';
+
 /***** ESTILOS PIE DE PÁGINA *****/
 
 
@@ -5,7 +7,7 @@
 .final {
     padding-top: 20px;
     padding-left: 20px;
-    background-color: #023e8a;
+    background-color: $color_nav_foot;
     display: flex;
     justify-content: space-between;
 }
@@ -13,7 +15,7 @@
 
 /* PARRAFO NUESTRAS REDES */
 .final-div-p {
-    color: aliceblue;
+    color: $color_texto;
     width: 20%;
 }
 

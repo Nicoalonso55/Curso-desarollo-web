@@ -1,10 +1,12 @@
+@import '../base/colores';
+
 /***** ESTILOS ARCHIVO NOSOTROS *****/
 
 /* SECCION NOSOTROS */
 .seccion-nosotros {
     padding: 20px;
-    color: aliceblue;
-    background-color: #0077b6;
+    color: $color_texto;
+    background-color: $color_principal;
     display: flex;
     flex-direction: column;
     justify-content: center;
