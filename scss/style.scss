@@ -1,0 +1,25 @@
+/* AGREGO FUENTE TOMADA DE GOOGLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Ubuntu:wght@300&display=swap');
+
+@import '../scss/components/header';
+
+@import '../scss/components/footer';
+
+@import '../scss/components/index';
+
+@import '../scss/components/productos';
+
+@import '../scss/components/nosotros';
+
+@import '../scss/components/contacto';
+
+
+
+/* FORMATEO INICIAL DE LA PÁGINA */
+* {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

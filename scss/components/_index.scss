@@ -1,0 +1,115 @@
+/***** ESTILOS SECCION PRINCIPAL *****/
+
+/* CONTENEDOR PRINCIPAL MAIN */
+.principal{
+    background-color: #0077b6;
+}
+
+/* SECCION PRINCIPAL */
+.principal-seccion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:    
+                            "video-1        video-1"
+                            "principal-1    principal-img"
+                            "principal-1    principal-img";
+}
+
+/* TITULO PRINCIPAL */
+.titulo-principal {
+    color: aliceblue;    
+}
+
+/* PARRAFO SECCION PRINCIPAL */
+.principal-parrafo{
+    color: aliceblue;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/* VIDEO SECCION PRINCIPAL */
+
+.principal-video {
+    width: 100%;
+    grid-area: video-1;
+}
+
+/* CONTENEDOR DE TITULO Y PARRAFO SECCION PRINCIPAL */
+.principal-div {
+    padding: 20px;
+    grid-area: principal-1;
+
+}
+
+/* IMAGEN PRINCIPAL */
+.img-principal {
+    width: 50vw;
+    padding-left: 20%;
+    grid-area: principal-img;
+}
+
+/***** ESTILOS SECCION MEDIA ******/
+
+/* CONTENEDOR SECCION MEDIA */
+.media{
+    padding: 20px;
+    background-color: #0077b6;
+}
+
+
+.card {
+    background-color: #0077b6;
+}
+/* ESTILOS A LOS P SECCION MEDIA */
+.seccion-media div p{
+    text-align: center;
+    color: aliceblue;
+}
+
+/* TAMAÑO IMAGENES SECCION MEDIA */
+.seccion-media div img {
+    width: 80%;
+    height: 30vh;
+    
+}
+
+/* CONTENEDORES IMAGENES */
+.media-uno {
+    grid-area: servidor;
+}
+
+.media-dos {
+    grid-area: redes;
+}
+
+.media-tres {
+    grid-area: asesoramiento;
+}
+
+@media (max-width:991px) {
+
+    .principal-seccion {
+        display: block;
+    }
+
+    .principal-video {
+        display: none;
+    }
+
+    .img-principal {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .encabezado-lista {
+        li {
+            &:hover {
+                &::before {
+                    width: 0%;
+                }
+            }
+        }
+    }
+    
+}

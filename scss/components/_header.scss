@@ -1,0 +1,98 @@
+/* FORMATEO INICIAL DE LA PÁGINA */
+* {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ESTILOS ENCABEZADO */
+/* HEADER */
+.encabezado-contenedor {
+    background-color: #023e8a;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+/* ELEMENTOS DE LA LISTA */
+.encabezado-lista {
+	li {
+		font-size: 20px;
+		list-style-type: none;
+		display: flex;
+		color: aliceblue;
+		position: relative;
+	}
+}
+
+/* AGREGO LINEA DE COLOR AL LOS ELEMENTOS LI */
+.encabezado-lista {
+	li {
+		a {
+			&::after {
+				content: '';
+				width: 0;
+				height: 3px;
+				background-color: #00ffb3;
+				margin: auto;
+				display: block;
+			}
+		}
+	}
+}
+
+/* ACTIVO LINEA AL PASAR EL MOUSE POR LOS ELEMENTOS */
+.encabezado-lista {
+	li {
+		a {
+			&:hover {
+				&::after {
+					width: 100%;
+					transition: width 0.3s linear;
+				}
+			}
+		}
+	}
+}
+
+/* ELEMENTOS LINKS DE LA LISTA */
+.encabezado {
+	.encabezado-lista {
+		li {
+			a {
+				text-decoration: none;
+				color: white;
+			}
+		}
+	}
+}
+
+.nav-link   {
+    color: aliceblue ;   
+}
+
+/* LINK LOGO */
+.link-logo {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+/* LOGO */
+.img-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+
+/* TEXTO QUE ACOMPAÑA AL LOGO */
+.nombre-negocio {
+    padding: 20px 20px;
+    color: aliceblue;
+    font-size: 1.0em;
+    font-weight: bold;
+}

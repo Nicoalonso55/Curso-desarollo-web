@@ -1,0 +1,43 @@
+/***** ESTILOS PIE DE PÁGINA *****/
+
+
+/* FOOTER */
+.final {
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #023e8a;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* PARRAFO NUESTRAS REDES */
+.final-div-p {
+    color: aliceblue;
+    width: 20%;
+}
+
+/* CONTENEDOR DE LINKS */
+.final-link-redes {
+    padding-bottom: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* ELEMENTOS A REDES */
+.final-link-redes {
+	a {
+		transition: 0.5s;
+	}
+}
+
+.final-link-redes {
+	a {
+		&:hover {
+			transform: scale(2);
+		}
+	}
+}
+
