@@ -294,6 +294,20 @@
   color: aliceblue;
 }
 
+/***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
+.Capacitacion {
+  background-color: #0077b6;
+}
+
+/***** ESTILOS ARCHIVO SERVICIOS *****/
+.servicios {
+  background-color: #0077b6;
+}
+
+.titulo-servicios {
+  color: aliceblue;
+}
+
 /* FORMATEO INICIAL DE LA PÁGINA */
 * {
   font-family: "Ubuntu", sans-serif;
