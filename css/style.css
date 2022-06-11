@@ -324,7 +324,7 @@
 }
 
 
-/***** ESTILOS ARCHIVO FORMULARIO *****/
+/***** ESTILOS ARCHIVO Contacto *****/
 
 /* COLOR MAIN */
 .contacto {
@@ -348,12 +348,22 @@
 }
 
 
+/***** ESTILOS ARCHIVO SERVICIOS *****/
 
+.servicios {
+    background-color: #0077b6;
+}
+
+.titulo-servicios {
+    color: aliceblue;
+}
 
 
 /****** TRABAJO CON @MEDIA ******/
 
 @media (max-width:991px) {
+
+    /* INDEX */
 
     .principal-seccion {
         display: block;
@@ -368,8 +378,19 @@
         padding: 0;
     }
 
+
+    /* QUITO EFECTO HOVER DEL MENU */
     .encabezado-lista li:hover::before {
         width: 0%;
     }
+
+    /* SERVICIOS */
+
+    .fila-servicios div {
+        
+        padding-top: 15px;
+        
+    }
+
     
 }
