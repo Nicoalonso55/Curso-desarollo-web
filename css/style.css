@@ -359,6 +359,12 @@
 }
 
 
+/***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
+
+.Capacitacion {
+    background-color: #0077b6;
+}
+
 /****** TRABAJO CON @MEDIA ******/
 
 @media (max-width:991px) {
@@ -380,9 +386,9 @@
 
 
     /* QUITO EFECTO HOVER DEL MENU */
-    .encabezado-lista li:hover::before {
+    /* .encabezado-lista li:hover::before {
         width: 0%;
-    }
+    } */
 
     /* SERVICIOS */
 
@@ -391,6 +397,8 @@
         padding-top: 15px;
         
     }
+
+  
 
     
 }
