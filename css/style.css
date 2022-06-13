@@ -295,7 +295,7 @@
 }
 
 /***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
-.Capacitacion {
+.capacitacion {
   background-color: #0077b6;
 }
 
@@ -306,6 +306,20 @@
 
 .titulo-servicios {
   color: aliceblue;
+}
+
+/***** ESTILOS ARCHIVO SERVICIOS *****/
+.servicios {
+  background-color: #0077b6;
+}
+
+.titulo-servicios {
+  color: aliceblue;
+}
+
+/***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
+.capacitacion {
+  background-color: #0077b6;
 }
 
 /* FORMATEO INICIAL DE LA PÁGINA */
