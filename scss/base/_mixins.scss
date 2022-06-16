@@ -1,0 +1,5 @@
+@mixin flex_box ($valor1, $valor2) {
+    display: $valor1;
+    justify-content: $valor2;
+    
+}

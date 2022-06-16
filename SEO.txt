@@ -1,0 +1,7 @@
+SEO:
+- Agrego alt que faltaban
+- Agrego link a redes
+- Agrego Title a video
+- Modifico Title
+- Agrego meta description
+- Agrego meta keywords
