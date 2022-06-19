@@ -68,6 +68,15 @@
   font-weight: bold;
 }
 
+/***** TRABAJO MEDIA NOMBRE DEL NEGOCIO *****/
+@media (max-width: 360px) {
+  .nombre-negocio {
+    padding: 20px 20px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
 /***** ESTILOS PIE DE PÁGINA *****/
 /* FOOTER */
 .final {
@@ -102,6 +111,46 @@
   transform: scale(2);
 }
 
+/***** TRABAJO @MEDIA NUESTRAS REDES *****/
+@media (max-width: 572px) {
+  .final-link-redes {
+    padding-bottom: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .final-div-p {
+    color: aliceblue;
+    width: 30%;
+  }
+}
+@media (max-width: 537px) {
+  .final-link-redes {
+    padding-bottom: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .final-div-p {
+    color: aliceblue;
+    width: 40%;
+  }
+}
+@media (max-width: 360px) {
+  .final-link-redes {
+    padding-bottom: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .final-div-p {
+    color: aliceblue;
+    width: 40%;
+  }
+}
 /***** ESTILOS SECCION PRINCIPAL *****/
 /* CONTENEDOR PRINCIPAL MAIN */
 .principal {
@@ -287,6 +336,11 @@
 
 .h5-form {
   color: aliceblue;
+}
+
+.boton {
+  width: 75px;
+  margin-left: 15px;
 }
 
 /***** ESTILOS ARCHIVOS CAPACITACIÓN *****/

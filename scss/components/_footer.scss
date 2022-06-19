@@ -43,3 +43,53 @@
 	}
 }
 
+
+/***** TRABAJO @MEDIA NUESTRAS REDES *****/
+
+
+
+@media (max-width:572px) {
+    .final-link-redes {
+        padding-bottom: 20px;
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .final-div-p {
+        color: $color_texto;
+        width: 30%;
+    }
+    
+}
+
+@media (max-width:537px) {
+    .final-link-redes {
+        padding-bottom: 20px;
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .final-div-p {
+        color: $color_texto;
+        width: 40%;
+    }
+    
+}
+
+@media (max-width:360px) {
+    .final-link-redes {
+        padding-bottom: 20px;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .final-div-p {
+        color: $color_texto;
+        width: 40%;
+    }
+    
+}
+
