@@ -3,3 +3,9 @@
     justify-content: $valor2;
     
 }
+
+@mixin fuentes ($valor1, $valor2, $valor3) {
+    color: $valor1;
+    padding-top: $valor2;
+    padding-left: $valor3;
+}

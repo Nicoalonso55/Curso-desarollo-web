@@ -1,6 +1,12 @@
 @import '../base/colores';
-
+@import '../base/mixins';
 /***** ESTILOS ARCHIVO CONTACTO *****/
+
+/* ESTILO H1 */
+
+.contacto-titulo {
+    @include fuentes ($color_texto,20px,15px);
+}
 
 /* COLOR MAIN */
 .contacto {

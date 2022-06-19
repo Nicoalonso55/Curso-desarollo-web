@@ -1,8 +1,15 @@
 @import '../base/colores';
-
+@import '../base/mixins';
 /***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
 
 .capacitacion {
     background-color: $color_principal;
 }
 
+.h1-capacitacion {
+    @include fuentes ($color_texto,20px,15px);
+}
+
+.seccion-capacitacion {
+    padding: 15px;
+}

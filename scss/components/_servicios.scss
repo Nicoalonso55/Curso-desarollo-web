@@ -1,4 +1,5 @@
 @import '../base/colores';
+@import '../base/mixins';
 
 /***** ESTILOS ARCHIVO SERVICIOS *****/
 
@@ -7,5 +8,5 @@
 }
 
 .titulo-servicios {
-    color: $color_texto;
+    @include fuentes ($color_texto,20px,15px);
 }

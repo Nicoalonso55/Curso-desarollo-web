@@ -199,17 +199,6 @@
   }
 }
 /***** ESTILOS ARCHIVO PRODUCTOS *****/
-/* FUENTE H1 */
-.prodcutos-titulo {
-  padding-top: 20px;
-  padding-left: 15px;
-  font-family: "Ubuntu", sans-serif;
-  color: aliceblue;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
 /* COLOR MAIN */
 .productos {
   background-color: #0077b6;
@@ -221,14 +210,10 @@
 }
 
 /* FUENTE H1 */
-.contacto-titulo {
+.productos-titulo {
+  color: aliceblue;
   padding-top: 20px;
   padding-left: 15px;
-  font-family: "Ubuntu", sans-serif;
-  color: aliceblue;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: 0;
 }
 
 /* CARRUSEL */
@@ -250,6 +235,9 @@
 .nosotros-titulo {
   display: flex;
   justify-content: center;
+  color: aliceblue;
+  padding-top: 20px;
+  padding-left: 15px;
 }
 
 .contenedor-p {
@@ -273,6 +261,13 @@
 }
 
 /***** ESTILOS ARCHIVO CONTACTO *****/
+/* ESTILO H1 */
+.contacto-titulo {
+  color: aliceblue;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
 /* COLOR MAIN */
 .contacto {
   background-color: #0077b6;
@@ -299,6 +294,16 @@
   background-color: #0077b6;
 }
 
+.h1-capacitacion {
+  color: aliceblue;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.seccion-capacitacion {
+  padding: 15px;
+}
+
 /***** ESTILOS ARCHIVO SERVICIOS *****/
 .servicios {
   background-color: #0077b6;
@@ -306,6 +311,8 @@
 
 .titulo-servicios {
   color: aliceblue;
+  padding-top: 20px;
+  padding-left: 15px;
 }
 
 /***** ESTILOS ARCHIVO SERVICIOS *****/
@@ -315,11 +322,23 @@
 
 .titulo-servicios {
   color: aliceblue;
+  padding-top: 20px;
+  padding-left: 15px;
 }
 
 /***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
 .capacitacion {
   background-color: #0077b6;
+}
+
+.h1-capacitacion {
+  color: aliceblue;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.seccion-capacitacion {
+  padding: 15px;
 }
 
 /* FORMATEO INICIAL DE LA PÁGINA */
