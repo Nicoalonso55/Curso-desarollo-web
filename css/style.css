@@ -79,7 +79,7 @@
 }
 /***** ESTILOS PIE DE PÁGINA *****/
 /* FOOTER */
-.final {
+.final, .final-servicios {
   padding-top: 20px;
   padding-left: 20px;
   background-color: #023e8a;
@@ -236,15 +236,22 @@
   .principal-seccion {
     display: block;
   }
-  .principal-video {
-    display: none;
-  }
   .img-principal {
     width: 100vw;
     padding: 0;
   }
   .encabezado-lista li:hover::before {
     width: 0%;
+  }
+}
+@media (max-width: 400px) {
+  .principal-div {
+    position: relative;
+    top: 350px;
+  }
+  .img-principal {
+    position: relative;
+    top: -400px;
   }
 }
 /***** ESTILOS ARCHIVO PRODUCTOS *****/
@@ -341,6 +348,7 @@
 .boton {
   width: 75px;
   margin-left: 15px;
+  color: #023e8a;
 }
 
 /***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
@@ -358,6 +366,21 @@
   padding: 15px;
 }
 
+@media (max-width: 2000px) {
+  .card-cap {
+    width: 70%;
+  }
+}
+@media (max-width: 799px) {
+  .card-cap {
+    width: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .card-cap {
+    width: 100%;
+  }
+}
 /***** ESTILOS ARCHIVO SERVICIOS *****/
 .servicios {
   background-color: #0077b6;
@@ -369,6 +392,16 @@
   padding-left: 15px;
 }
 
+@media (max-width: 2500px) {
+  .final-servicios {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  .body-servicios {
+    background-color: #0077b6;
+  }
+}
 /***** ESTILOS ARCHIVO SERVICIOS *****/
 .servicios {
   background-color: #0077b6;
@@ -380,6 +413,16 @@
   padding-left: 15px;
 }
 
+@media (max-width: 2500px) {
+  .final-servicios {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  .body-servicios {
+    background-color: #0077b6;
+  }
+}
 /***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
 .capacitacion {
   background-color: #0077b6;
@@ -395,6 +438,21 @@
   padding: 15px;
 }
 
+@media (max-width: 2000px) {
+  .card-cap {
+    width: 70%;
+  }
+}
+@media (max-width: 799px) {
+  .card-cap {
+    width: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .card-cap {
+    width: 100%;
+  }
+}
 /* FORMATEO INICIAL DE LA PÁGINA */
 * {
   font-family: "Ubuntu", sans-serif;

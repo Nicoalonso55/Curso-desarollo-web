@@ -95,9 +95,6 @@
         display: block;
     }
 
-    .principal-video {
-        display: none;
-    }
 
     .img-principal {
         width: 100vw;
@@ -114,4 +111,16 @@
         }
     }
     
+}
+
+@media (max-width:400px) {
+    .principal-div {
+        position: relative;
+        top: 350px;
+    }
+
+    .img-principal {
+        position: relative;
+        top: -400px;
+    }
 }
