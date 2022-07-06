@@ -1,0 +1,102 @@
+@import '../base/colores';
+/* ESTILOS ENCABEZADO */
+/* HEADER */
+.encabezado-contenedor {
+    background-color: $color_nav_foot;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+/* ELEMENTOS DE LA LISTA */
+.encabezado-lista {
+	li {
+		font-size: 20px;
+		list-style-type: none;
+		display: flex;
+		color: $color_texto;
+		position: relative;
+	}
+}
+
+/* AGREGO LINEA DE COLOR AL LOS ELEMENTOS LI */
+.encabezado-lista {
+	li {
+		a {
+			&::after {
+				content: '';
+				width: 0;
+				height: 3px;
+				background-color: #00ffb3;
+				margin: auto;
+				display: block;
+			}
+		}
+	}
+}
+
+/* ACTIVO LINEA AL PASAR EL MOUSE POR LOS ELEMENTOS */
+.encabezado-lista {
+	li {
+		a {
+			&:hover {
+				&::after {
+					width: 100%;
+					transition: width 0.3s linear;
+				}
+			}
+		}
+	}
+}
+
+/* ELEMENTOS LINKS DE LA LISTA */
+.encabezado {
+	.encabezado-lista {
+		li {
+			a {
+				text-decoration: none;
+				color: $color_texto;
+			}
+		}
+	}
+}
+
+.nav-link   {
+    color: $color_texto;   
+}
+
+/* LINK LOGO */
+.link-logo {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+/* LOGO */
+.img-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+
+/* TEXTO QUE ACOMPAÑA AL LOGO */
+.nombre-negocio {
+    padding: 20px 20px;
+    color: $color_texto;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+/***** TRABAJO MEDIA NOMBRE DEL NEGOCIO *****/ 
+
+@media (max-width:360px) {
+	.nombre-negocio {
+		padding: 20px 20px;
+		color: $color_texto;
+		font-size: 16px;
+		font-weight: bold;
+	}	
+
+}

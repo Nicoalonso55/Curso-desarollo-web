@@ -1,0 +1,27 @@
+@import '../base/colores';
+@import '../base/mixins';
+/***** ESTILOS ARCHIVO PRODUCTOS *****/
+
+
+/* COLOR MAIN */
+
+.productos {
+    background-color: $color_principal;
+}
+
+
+/* CONTENEDOR GRID CARDS*/
+.seccion-productos {
+    padding: 15px;
+}
+
+/* FUENTE H1 */
+.productos-titulo {
+    @include fuentes ($color_texto,20px,15px);
+}
+
+/* CARRUSEL */
+.carrusel {
+    padding: 15px;
+}
+

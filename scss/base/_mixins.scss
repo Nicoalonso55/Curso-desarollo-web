@@ -1,0 +1,11 @@
+@mixin flex_box ($valor1, $valor2) {
+    display: $valor1;
+    justify-content: $valor2;
+    
+}
+
+@mixin fuentes ($valor1, $valor2, $valor3) {
+    color: $valor1;
+    padding-top: $valor2;
+    padding-left: $valor3;
+}

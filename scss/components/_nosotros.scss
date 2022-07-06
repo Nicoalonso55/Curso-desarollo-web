@@ -1,0 +1,40 @@
+@import '../base/colores';
+@import '../base/mixins';
+@import '../base/mixins';
+
+/***** ESTILOS ARCHIVO NOSOTROS *****/
+
+/* SECCION NOSOTROS */
+.seccion-nosotros {
+    padding: 20px;
+    color: $color_texto;
+    background-color: $color_principal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nosotros-titulo {
+   @include flex_box (flex, center);
+   @include fuentes ($color_texto,20px,15px);
+}
+
+.contenedor-p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.nosotros-parrafo {
+    text-align: center;
+}
+
+.nosotros-img {
+    @include flex_box (flex, center)
+ 
+}
+
+.nosotros-img- {
+    width: 60%;
+} 

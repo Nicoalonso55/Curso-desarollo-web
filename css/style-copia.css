@@ -348,6 +348,7 @@
 }
 
 /***** ESTILOS ARCHIVO SERVICIOS *****/
+<<<<<<< HEAD
 
 .servicios {
     background-color: #0077b6;
@@ -363,7 +364,23 @@
 .Capacitacion {
     background-color: #0077b6;
 }
+=======
+>>>>>>> sass
 
+.servicios {
+    background-color: #0077b6;
+}
+
+.titulo-servicios {
+    color: aliceblue;
+}
+
+
+/***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
+
+.Capacitacion {
+    background-color: #0077b6;
+}
 
 
 

@@ -1,0 +1,37 @@
+@import '../base/colores';
+@import '../base/mixins';
+/***** ESTILOS ARCHIVO CONTACTO *****/
+
+/* ESTILO H1 */
+
+.contacto-titulo {
+    @include fuentes ($color_texto,20px,15px);
+}
+
+/* COLOR MAIN */
+.contacto {
+    background-color: $color_principal;
+}
+
+.nombreyapellido {
+    padding-bottom: 15px;
+}
+
+.area-mensaje {
+    padding-top: 15px;
+}
+
+.card-form {
+    border: none;
+}
+
+.h5-form {
+    color: $color_texto;
+}
+
+.boton {
+    width: 75px;
+    margin-left: 15px;
+    color: $color_nav_foot;
+}
+
