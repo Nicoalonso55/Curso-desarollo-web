@@ -288,9 +288,6 @@
   justify-content: center;
 }
 
-<<<<<<< HEAD
-/***** ESTILOS ARCHIVO Contacto *****/
-=======
 .nosotros-titulo {
   display: flex;
   justify-content: center;
@@ -326,7 +323,6 @@
   padding-top: 20px;
   padding-left: 15px;
 }
->>>>>>> sass
 
 /* COLOR MAIN */
 .contacto {
@@ -355,20 +351,9 @@
   color: #023e8a;
 }
 
-<<<<<<< HEAD
-/***** ESTILOS ARCHIVO SERVICIOS *****/
-
-.servicios {
-    background-color: #0077b6;
-}
-
-.titulo-servicios {
-    color: aliceblue;
-=======
 /***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
 .capacitacion {
   background-color: #0077b6;
->>>>>>> sass
 }
 
 .h1-capacitacion {
@@ -377,15 +362,8 @@
   padding-left: 15px;
 }
 
-<<<<<<< HEAD
-/***** ESTILOS ARCHIVOS CAPACITACIÓN *****/
-
-.Capacitacion {
-    background-color: #0077b6;
-=======
 .seccion-capacitacion {
   padding: 15px;
->>>>>>> sass
 }
 
 .card-cap {
@@ -412,19 +390,11 @@
   background-color: #0077b6;
 }
 
-<<<<<<< HEAD
-    /* INDEX */
-
-    .principal-seccion {
-        display: block;
-    }
-=======
 .titulo-servicios {
   color: aliceblue;
   padding-top: 20px;
   padding-left: 15px;
 }
->>>>>>> sass
 
 @media (max-width: 2500px) {
   .final-servicios {
@@ -447,26 +417,6 @@
   padding-left: 15px;
 }
 
-<<<<<<< HEAD
-
-    /* QUITO EFECTO HOVER DEL MENU */
-    /* .encabezado-lista li:hover::before {
-        width: 0%;
-    } */
-
-    /* SERVICIOS */
-
-    .fila-servicios div {
-        
-        padding-top: 15px;
-        
-    }
-
-  
-
-    
-}
-=======
 @media (max-width: 2500px) {
   .final-servicios {
     position: fixed;
@@ -520,4 +470,3 @@
 }
 
 /*# sourceMappingURL=style.css.map */
->>>>>>> sass
